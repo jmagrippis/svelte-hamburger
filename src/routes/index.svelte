@@ -2,16 +2,11 @@
   export const prerender = true
 </script>
 
-<script lang="ts">
-  import Hamburger from '$lib/Hamburger.svelte'
-</script>
-
 <svelte:head>
-  <title>Hamburger</title>
+  <title>Svelte Hamburger</title>
 </svelte:head>
 
 <section>
-  <Hamburger width={500} />
   <slot />
 </section>
 
