@@ -1,4 +1,6 @@
 <script context="module" lang="ts">
+  import AnimatedHamburger from '$lib/AnimatedHamburger.svelte'
+
   export const prerender = true
 </script>
 
@@ -7,6 +9,7 @@
 </svelte:head>
 
 <section>
+  <AnimatedHamburger width={500} />
   <slot />
 </section>
 

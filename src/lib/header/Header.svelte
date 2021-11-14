@@ -1,7 +1,13 @@
 <script lang="ts">
   import { fly } from 'svelte/transition'
 
+  import AnimatedHamburger from '$lib/AnimatedHamburger.svelte'
   import logo from './svelte-logo.svg'
+
+  export let open = false
+  export let onClick = () => {
+    open = !open
+  }
 </script>
 
 <header>
@@ -11,9 +17,10 @@
         <img src={logo} alt="SvelteKit" />
       </a>
     </div>
+    <AnimatedHamburger {open} {onClick} />
   </div>
 
-  {#if false}
+  {#if open}
     <nav transition:fly={{ y: -200, duration: 400 }}>
       <a href="https://magrippis.com/tube">Videos</a>
       <a href="https://magrippis.com/blog">Blogposts</a>
