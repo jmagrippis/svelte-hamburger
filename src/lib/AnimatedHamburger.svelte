@@ -38,6 +38,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+    overflow: hidden;
   }
 
   svg {
