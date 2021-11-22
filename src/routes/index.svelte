@@ -9,7 +9,7 @@
 </svelte:head>
 
 <section>
-  <AnimatedHamburger width={500} />
+  <AnimatedHamburger width="95vw" />
   <slot />
 </section>
 
