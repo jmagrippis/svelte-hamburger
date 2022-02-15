@@ -5,7 +5,7 @@
   import logo from './svelte-logo.svg'
 
   export let open = false
-  export let onClick = () => {
+  export let onClick = (): void => {
     open = !open
   }
 </script>
