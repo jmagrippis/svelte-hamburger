@@ -1,6 +1,6 @@
 <script lang="ts">
   export let open = false
-  export let onClick = () => {
+  export let onClick = (): void => {
     open = !open
   }
 

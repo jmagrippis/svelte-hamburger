@@ -1,6 +1,6 @@
 {
   "name": "svelte-hamburger",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -19,13 +19,13 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
-    "prettier": "^2.4.1",
-    "prettier-plugin-svelte": "^2.4.0",
-    "svelte": "^3.34.0",
-    "svelte-check": "^2.2.6",
-    "svelte-preprocess": "^4.9.4",
+    "prettier": "^2.5.1",
+    "prettier-plugin-svelte": "^2.6.0",
+    "svelte": "^3.46.4",
+    "svelte-check": "^2.4.3",
+    "svelte-preprocess": "^4.10.3",
     "tslib": "^2.3.1",
-    "typescript": "^4.4.3"
+    "typescript": "^4.5.5"
   },
   "type": "module",
   "dependencies": {
@@ -33,5 +33,6 @@
     "@lukeed/uuid": "^2.0.0",
     "cookie": "^0.4.1",
     "modern-normalize": "^1.1.0"
-  }
+  },
+  "license": "MIT"
 }
